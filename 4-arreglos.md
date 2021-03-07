@@ -11,6 +11,7 @@ const arreglo2 = [ ...arreglo, 5 ];
 
 ```
 
+
 ### Método `.map()`
 
 Este método nos permite iterar todos los elementos de un arreglo, retornando un nuevo arreglo,
@@ -27,6 +28,7 @@ newArray;
 > Como podemos ver, estamos diciendo que por cada elemento en myArray, debemos ejecutar la siguiente función number => number + 1.(En este caso utilizamos un arrow function).
 
 
+
 ### Método `.forEach()`
 
 Este método, similar al map(), ejecutará el callback indicado por cada elemento del arreglo.
@@ -37,6 +39,7 @@ La mayor diferencia entre ambos, es que este método no retorna un nuevo arreglo
 const myArray = [10, 20, 30];
 const myArray.forEach(number => calculateSomething(number);
 ```
+
 
 ### Método `.reduce()`
 
@@ -57,6 +60,7 @@ un acumulador y el elemento actual, el acumulador se encargara (como indica su n
 luego de cada operación. Si no se provee un valor inicial al acumulador,
 su valor inicial será el valor del primer elemento del arreglo.
 
+
 ### Método `.find()`
 
 Este método nos retornara el primer elemento que encuentre cumpliendo los requerimientos que proponga nuestro callback.
@@ -74,7 +78,8 @@ el elemento actual y luego retornando true o false dada una condición que nosot
 si es true, dará por terminada la iteración y nos retornará ese valor que cumple la condición. Si es false, 
 continuará con el siguiente elemento.
 
-# Método `.filter()`
+
+### Método `.filter()`
 
 Método con funcionamiento similar al de find(), retornara un nuevo arreglo con todos los elementos
 que encuentre cumpliendo los requerimientos que proponga nuestro callback.
