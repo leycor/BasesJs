@@ -79,10 +79,10 @@ continuará con el siguiente elemento.
 Método con funcionamiento similar al de find(), retornara un nuevo arreglo con todos los elementos
 que encuentre cumpliendo los requerimientos que proponga nuestro callback.
 
-```javascript
+~~~javascript
 
 const myArray = [10, 20, 30, 40];
 const filteredValues = myArray.filter(number => number > 20);
 filteredValues
 // Prints [30, 40]
-```
+~~~
