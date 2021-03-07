@@ -1,21 +1,29 @@
-// Arreglos en JS
+### Arreglos en JS
+
+Un arreglo es una lista de elementos y la forma de declararlo en JS es la siguiente:
+
+```javascript
 const arreglo = [1,2,3,4];
 
-// Se crea un nuevo arreglo el cual contiene una copia del arreglo anterior y aparte añade el 5 al final
-let arreglo2 = [ ...arreglo, 5 ];
-// Salida: [1,2,3,4,5]
+// Para agregar un nuevo elemento en un arreglo utilizaremos el operador spread el cual crea una copia del arreglo anterior y agrega al final el elemento que coloques.
+const arreglo2 = [ ...arreglo, 5 ];
 
+```
 
-map()
-/* Este método nos permite iterar todos los elementos de un arreglo, retornando un nuevo arreglo,
-dada una determinada función o callback a ejecutar en cada elemento que lo compone.  */
+### Metodo `.map()`
+
+Este método nos permite iterar todos los elementos de un arreglo, retornando un nuevo arreglo,
+dada una determinada función o callback a ejecutar en cada elemento que lo compone.
+
+```javascript
+
 const myArray = [10, 20, 30];
 const newArray = myArray.map(number => number + 1);
 newArray;
 // Prints [11, 21, 31]
+```
 
-/* Como podemos ver, estamos diciendo que por cada elemento en myArray,
-debemos ejecutar la siguiente función number => number + 1.(En este caso utilizamos un arrow function). */
+> Como podemos ver, estamos diciendo que por cada elemento en myArray, debemos ejecutar la siguiente función number => number + 1.(En este caso utilizamos un arrow function).
 
 
 forEach()

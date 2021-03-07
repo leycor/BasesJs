@@ -1,3 +1,8 @@
+### Objetos Literales
+
+Dado un objeto podemos crear una copia del mismo usando la siguiente sintaxis
+```javascript
+
 const persona = {
     nombre: 'Tony',
     apellido: 'Stark',
@@ -10,11 +15,9 @@ const persona = {
     }
 };
 
-// console.table( persona );
-
+// Copia de objeto persona
 const persona2 = { ...persona };
-persona2.nombre = 'Peter';
+ ```
 
 
-console.log( persona );
-console.log( persona2 )
+
