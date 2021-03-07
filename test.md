@@ -2,8 +2,7 @@
 
 Esto es un parrafo
 
-```
-javascript
+```javascript
 
 const variable = '2'
 const = `${Hola Mundo}`
